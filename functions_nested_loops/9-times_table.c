@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-void table_de_multiplication(void) {
+// Déclaration de la fonction times_table
+void times_table(void);
+
+// Définition de la fonction times_table
+void times_table(void) {
     int multiplicateur = 0;
     int resultat;
 
@@ -14,7 +18,6 @@ void table_de_multiplication(void) {
 }
 
 int main() {
-    table_de_multiplication();
+    times_table(); // Appel de la fonction times_table
     return 0;
 }
-
