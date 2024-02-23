@@ -1,9 +1,4 @@
-#include <stdio.h>
-
-// Déclaration de la fonction times_table
-void times_table(void);
-
-// Définition de la fonction times_table
+/* Déclaration de la fonction times_table */
 void times_table(void) {
     int multiplicateur = 0;
     int resultat;
@@ -15,9 +10,4 @@ void times_table(void) {
         printf("9 * %d = %d\n", multiplicateur, resultat);
         multiplicateur++;
     }
-}
-
-int main() {
-    times_table(); // Appel de la fonction times_table
-    return 0;
 }
