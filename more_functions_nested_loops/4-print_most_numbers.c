@@ -1,17 +1,23 @@
 #include "main.h"
 
 /**
- * print_numbers - entry point
+ * print_most_numbers - entry point
  *
- * Return: void
+ * Description: prints the numbers from 0 to 9
+ *
+ * Return: 0 for success.
  */
-void print_numbers(void)
-{
-	int a;
 
-	for (a = 48; a < 58; a++)
+void print_most_numbers(void)
+{
+	int i;
+
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(a);
+		if (i != 2 && i != 4)
+		{
+			_putchar(i + '0');
+		}
 	}
 	_putchar('\n');
 }
